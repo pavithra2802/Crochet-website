@@ -1,0 +1,1607 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Kode+Mono:wght@400..700&family=League+Spartan:wght@500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&family=Roboto&family=Salsa&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+ .body{
+    overflow: hidden;
+ }
+ .gridlayout{
+    /* display: flex; */
+    width: 97%;
+    margin: auto;
+    /* background-color: white; */
+ }
+ .topheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    gap: 914px;
+    height: 40px;
+    background-color:#360832;
+}
+.header{
+    margin-top: 30px;
+}
+
+.topheader1 h4{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
+.topheader2 h4{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+
+} 
+.topheader3{
+    display: flex;
+    justify-content: space-around;
+    gap: 885px;
+}
+
+.header1 h4{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    margin-left: 35px;
+    
+}
+.header2{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    
+}
+.header3{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.search{
+    height: 36px;
+    width: 290px;
+    margin-top: 30px;
+    position: relative;
+    border-radius: 7px;
+    padding: 10px;
+
+
+}
+.icon{
+    margin-top: 35px;
+}
+.searchicon{
+    margin-top: 18px;
+    margin-left: 70px;
+    position: absolute;
+}
+.headersection{
+    background-color: #C3B1E1;
+    height: 63px;
+}
+.headertopics{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+    gap: 90px;
+}
+.headertopics h4{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 18px;
+
+
+}
+.ulheader{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    gap: 80px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.ulheader li{
+    list-style-type: none;
+
+}
+.ulheader li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: #C3B1E1;
+}
+.herosection{
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/Rectangle\ 31.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.subdivone h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    
+
+}
+.subdivone p{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+
+    
+}
+.herobutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+
+   
+
+}
+.hebutton{
+    padding: 10px 70px;
+    border-radius: 3px;
+    border: none;
+    height: 50px;
+    color: white;
+    background-color: #4A2146;
+
+}
+.herosection{
+    margin-top: 30px;
+}
+.subdivone{
+    padding-top: 150px;
+}
+.mainaboutus{
+    display: flex;
+    margin-top: 60px;
+    /* gap: 150px; */
+    justify-content: space-between;
+
+
+}
+.subdivaboutusone{
+    display: flex;
+    object-fit: cover;
+    /* width: 300px; */
+    height:500px ;
+    width: 30%;
+
+
+}
+.subdivaboutusone img{
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+
+}
+.subdivaboutustwo{
+    width: 70%;
+}
+.subdivaboutustwo h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+}
+.subdivaboutustwo p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 15px;
+
+
+    
+}
+.subdivaboutustwo p{
+   
+    font-weight: medium;
+}
+
+/* 
+.productheading{
+    text-align: center;
+}
+.icondiv{
+    position: relative;
+}
+.productoneimage{
+    position: absolute;
+} */
+
+.mainproducts{
+    margin-top: 60px;
+}
+.mainproductsone{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+.mainproductstwo{
+    /* display: flex; */
+    margin-top: 30px;
+    justify-content: space-around;
+    gap: 30px;
+}
+.mainproductonecontent{
+    background-color: #CCCCCC;
+    /* opacity: 50%; */
+    height: 100px;
+    
+}
+.mainproductonecontent h1{
+    color:black;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.sweater img{
+    position: relative;
+    width: 30%;
+
+}
+.icondiv{
+    display: flex;
+    margin-left: 20px;
+    gap: 331px ;
+
+}
+
+.hearticon{
+   margin-top: 15px;
+   /* margin-left: 25px; */
+    position: absolute;
+
+}
+
+.carticon{
+    margin-top: 15px;
+    /* margin-left: 400px; */
+    position:absolute;
+    
+}
+.mainproductstwo{
+    display: flex;
+}
+.mainproducttwocontent{
+    background-color: #CCCCCC;
+    height: 100px;
+    margin-top: -5px;
+}
+.mainproducttwocontent h1{
+    color:black;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    
+    text-align: center;
+    padding-top: 30px;
+
+
+}
+.mainproductthreecontent{
+    background-color: #CCCCCC;
+    height: 100px;
+    margin-top: -5px;
+
+}
+.mainproductthreecontent h1{
+    color:black;
+    text-align: center;
+    font-weight: 600;
+
+    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.banner{
+    display: flex;
+    margin: 80px 200px ;
+    gap: 30px;
+    justify-content: center;
+}
+.bannercontentone{
+    background-color: #E1D8DD;
+    height: auto;
+    margin-top: -5px;
+    gap: 20px;
+}
+.bannercontentone p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.bannercontenttwo{
+    background-color: #E1D8DD;
+    height: auto;
+    margin-top: -5px;
+    gap: 20px;
+}
+.bannercontenttwo p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.bannercontenttwo h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+.bancontent{
+    padding: 30px;
+}
+.bancontentone{
+    padding: 30px;
+}
+.bannercontentone h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+.shopnow{
+    background-color: white;
+    padding: 20px 30px;
+    border: none;
+    text-align: center;
+    margin-left: 147px;
+    margin-top: 20px;
+}
+.shopnowone{
+    background-color: white;
+    padding: 20px 30px;
+    border: none;
+    text-align: center;
+    margin-left: 147px;
+    margin-top: 20px;
+}
+.bannercardigans{
+    display: flex;
+}
+.bancar1{
+    width: 100%;
+}
+
+.bancar1{
+    position: relative;
+    
+}
+
+
+
+
+.banhat2 {
+    margin-top: 219px;
+    /* margin-left: 600px; */
+}
+.textone h1,h4 {
+    display:flex ;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+
+}
+.bannersectionone{
+    width: 100%;
+    height: 579px;
+    /* background-image: url(./images/cardigan\ BANNER\ \(2\).png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+/* .orangebox{
+    background-image: url(./images/cardiganbg.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box; 
+    outline: 1px solid white;
+    position: relative;
+    display: flex;
+} */
+.orangebox{
+    display: flex;
+}
+.sideeimage{
+    margin-left:1000px ;
+    position: absolute;
+}
+.maindresssection{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/cardigan\ BANNER\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .mainproductflex{
+    gap: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+.mobilebancar2{
+    background-color: orange;
+}
+.mobilebanbag2{
+    background-color: #C3B1E1;
+    padding: 78px;
+    text-align: center;
+    margin-top: 100PX;
+
+}
+.mobilebanhat2{
+    background-color: #aec6cf;
+    padding: 78px;
+    text-align: center;
+    margin-top: 100PX;
+
+}
+.filtersection{
+    display: flex;
+    /* margin-top: 40px; */
+    justify-content: space-between;
+    /* gap: 1250px; */
+    padding: 25px 0px;
+}
+.showfilter{
+    display: flex;
+    gap: 30px;
+}
+.showfilter img{
+    width: 40px;
+    height: 40px;
+}
+.showfilter p{
+    width: 250px;
+    margin-top: 9px;
+    margin-left: 0px;
+    font-family: 'Outfit', sans-serif;
+    font-size: larger;
+
+}
+.sortby{
+    display: flex;
+}
+.sortby p{
+    width: 100px;
+    font-family: 'Outfit', sans-serif;
+    font-size: larger;
+    margin-top: 9px;
+
+
+    
+}
+.sortbyrec{
+    width: 200px;
+    height: 25px;
+    margin-top: 9px;
+    /* position: relative; */
+}
+.sortbyimg{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 280px;
+}
+
+.subdivision-one{
+    width: 30%;
+    height: 490px;
+    border: 1px solid black;
+}
+.subdivision-two{
+    width: 30%;
+    height: 490px;
+    border: 1px solid black;
+}
+.subdivision-three{
+    width: 30%;
+    height: 490px;
+    border: 1px solid black;
+}
+.subdivision-four{
+    width: 30%;
+    height: 490px;
+    border: 1px solid black;
+}
+.subdivision-five{
+    width: 30%;
+    height: 490px;
+    border: 1px solid black;
+}
+.subdivision-six{
+    width: 30%;
+    height: 490px;
+    border: 1px solid black;
+}
+
+
+
+
+.bagsubdivision-one{
+    width: 30%;
+    height: 430px;
+    border: 1px solid black;
+}
+.bagsubdivision-two{
+    width: 30%;
+    height: 430px;
+    border: 1px solid black;
+}
+.bagsubdivision-three{
+    width: 30%;
+    height: 430px;
+    border: 1px solid black;
+}
+.bagsubdivision-four{
+    width: 30%;
+    height: 430px;
+    border: 1px solid black;
+}
+.bagsubdivision-five{
+    width: 30%;
+    height: 430px;
+    border: 1px solid black;
+}
+.bagsubdivision-six{
+    width: 30%;
+    height: 430px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+.hatsubdivision-one{
+    width: 383px;
+    height: 430px;
+    border: 1px solid black;
+}
+.hatsubdivision-two{
+    width: 383px;
+    height: 430px;
+    border: 1px solid black;
+}
+.hatsubdivision-three{
+    width: 383px;
+    height: 430px;
+    border: 1px solid black;
+}
+.hatsubdivision-four{
+    width: 383px;
+    height: 430px;
+    border: 1px solid black;
+}
+
+
+.productclickingiconflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.textone h3,h4 {
+    
+    font-family: 'Outfit', sans-serif;
+    
+    text-align: center;
+
+}
+.textone{
+    margin-top: 40px;
+
+}
+.icons{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.productimage{
+    display: flex;
+    justify-content: center;
+    /* width: 350px; */
+}
+.bagproductimage{
+    display: flex;
+    justify-content: center;
+    /* width: 350px; */
+}
+/* .productimageresize{
+    margin-left: -20px;
+} */
+.productrowone{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* justify-content: space-between;
+    margin-top: 30px;
+    gap: 100px; */
+}
+.productrowoneh{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    gap: 160px;
+}
+.productrowtwoh{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    gap: 160px;
+}
+.bagproductrowone{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* justify-content: space-between;
+    margin-top: 30px;
+    gap: 100px; */
+}
+.productrowtwo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+   
+}
+.productrowtwoh{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+   
+}
+.bagproductrowtwo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+   
+}
+/* .mainproductflex{
+    gap: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+.mainbagsection{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 669px;
+    background-image: url(./images/bagbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.maincarsection{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 669px;
+    background-image: url(./images/cardigan\ BANNER\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.banbag2 p{
+    /* position: absolute; */
+    /* text-align: center; */
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #334A52;
+    font-weight: bolder;
+    /* margin-top: 190px;
+    position: absolute; */
+    /* margin-left: 120px; */
+    width: 230px;
+}
+.bancar2 p{
+    /* position: absolute; */
+    /* text-align: center; */
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #334A52;
+    font-weight: bolder;
+    /* margin-top: 190px;
+    position: absolute; */
+    /* margin-left: 120px; */
+    width: 230px;
+}
+.banbag2 h1{
+    /* text-align: center; */
+    font-size: 50px;
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-weight: bolder;
+    /* margin-top: 220px;
+    position: absolute; */
+    /* margin-left: 110px; */
+
+}
+.bancar2 h1{
+    /* text-align: center; */
+    font-size: 50px;
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-weight: bolder;
+    /* margin-top: 220px;
+    position: absolute; */
+    /* margin-left: 110px; */
+
+}
+.banbag2 button{
+    /* margin-top: 320px; */
+    /* margin-left: 150px; */
+    /* position: absolute; */
+    background-color: white;
+    padding: 15px 50px;
+    width: 200px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.bancar2 button{
+    /* margin-top: 320px; */
+    /* margin-left: 150px; */
+    /* position: absolute; */
+    background-color: white;
+    padding: 15px 50px;
+    width: 200px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.banbag2{
+    margin-top: 210px;
+    margin-left: 958px;
+}
+.bancar2 {
+    margin-top: 260px;
+    margin-left: 173px;
+}
+.hatsssection{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.mainhatsssection1{
+    display: flex;
+    gap: 127px;
+
+
+}
+
+
+
+.mainhatsection{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-image: url(./images/hatbannerr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+
+}
+.banhat2 p{
+    /* position: absolute; */
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #334A52;
+    font-weight: bolder;
+    /* margin-top: 190px;
+    position: absolute; */
+    margin-left: 135px;
+    width: 230px;
+    margin-top: 242px;
+
+}
+.banhat2 h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-weight: bolder;
+    /* margin-top: 220px;
+    position: absolute; */
+    margin-left: 145px;
+
+}
+.banhat2 button{
+    /* margin-top: 320px; */
+    margin-left: 150px;
+    /* position: absolute; */
+    background-color: white;
+    padding: 15px 50px;
+    width: 200px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.banhat2{
+    margin-top: 219px;
+    /* margin-left: 600px; */
+}
+.productrowonee{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+}
+/* .imagediv1{
+    margin-top: 30px;
+} */
+
+.subdivisiononeh{
+    border: 1px solid black;
+    /* padding: 55px; */
+    height: 413px;
+    width: 350px;
+}
+
+.productclickingiconflexh{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.iconsh{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.productimageh{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* .productrowoneh{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 177px;
+} */
+
+.mainformsection{
+    background-image: url(./images/formbg.png);
+    width: 100%;
+    height: 1031px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+
+}
+.formcontent h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    padding-top: 214px;
+    
+    /* justify-content: center; */
+    display: flex;
+    margin-left: 308px;
+
+    
+}
+.email{
+    font-family: 'Poppins', sans-serif;
+    /* padding-top: 50px; */
+    margin-left: 180px;
+    font-weight: bold;
+
+
+    
+}
+.email input{
+    margin-top: 10px;
+    background-color: #D9D9D9;
+    border: none;
+    width: 320px;
+    height: 40px;
+    padding: 0px 20px;
+    border-radius: 7px;
+}
+.password input{
+    margin-top: 10px;
+    background-color: #D9D9D9;
+    border: none;
+    width: 320px;
+    height: 40px;
+}
+.form3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+    padding-top: 50px;
+    margin-left: 180px;
+
+}
+.form3 input{
+    margin-top: 10px;
+    background-color:#D9D9D9 ;
+    border: none;
+    width: 320px;
+    height: 40px;
+    padding: 0px 20px;
+    border-radius: 7px;
+
+}
+.form3 h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+.button2{
+    /* margin-top: 600px; */
+    width: 400px;
+    height: 50px;
+    /* margin-left: 200px; */
+    border: none;
+    background-color: #A26D99;
+    border-radius: 7px;
+    color: white;
+    /* padding-top: 50px; */
+    margin-left: 140px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.rememberme{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: medium; */
+
+    
+    
+
+}
+.rememberme p{
+    padding: 10px;
+}
+
+
+
+
+.form img{
+    position: absolute;
+
+}
+.fh{
+    margin-top: 400px;
+}
+
+.form2{
+    position: relative;
+    margin-top: 50px;
+}
+
+
+.button2{
+    /* margin-top: 600px; */
+    /* width: 400px; */
+    height: 50px;
+    margin-left: 180px;
+    border: none;
+    background-color: #A26D99;
+    color: white;
+    
+}
+.form2 p{
+    margin-top: 400px;
+}
+.email2{
+    margin-top: 60px;
+}
+.foot{
+    background-color: #DAC5D6;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.footer1{
+    padding: 0px;
+}
+.footer1 img{
+    padding: 10px;
+    display: flex;
+
+}
+.footimg2{
+    margin-left: 20px;
+}
+.footer2{
+    padding: 20px;
+}
+.footer2 p{
+    padding-top: 20px;
+}
+
+.footimg21{
+    margin-left: 20px;
+}
+.footer21{
+    padding: 20px;
+}
+.footer21 p{
+    padding-top: 20px;
+}
+
+.footimg3{
+    margin-left: 20px;
+}
+.footer3 h1{
+    padding-top: 10px;
+}
+.footer3 p{
+    padding-top: 20px;
+    width: 220px;
+    
+}
+
+.address{
+    margin-top: 20px;
+}
+.foot3{
+    padding-top: 10px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: medium;
+}
+.hatsssection{
+    margin-top: 50px;
+}
+.desktop{
+    display: block;
+
+}
+.mobile{
+    display: none;
+
+}
+/* mobile code */
+
+@media screen and (max-width:500px){
+
+
+
+      
+
+    .topheader3,.header1 h4,.header3,.headertopics,.subdivone h1,.subdivone p,.herobutton,.mainaboutus,.subdivaboutusone,.mainproductstwo,.banner,.productrowone,.productrowtwo,.productrowtwo,.bagproductrowone,.bagproductimage,.bagproductrowtwo,.productrowtwoh,.productrowtwoh
+    .productimage,.mainbagsection,.mainhatsection,.hatsssection,.mainhatsssection1,.productrowoneh,.productimageh,.foot,.footer1 img,.copyright{
+        display: block;
+
+    }
+    .body{
+        overflow: hidden;
+    }
+    .desktop{
+        display: none;
+    
+    }
+    .mobile{
+        display: block;
+    
+    }
+    .gridlayout {
+        /* display: flex; */
+        width: 94%;
+        margin: auto;
+        /* background-color: white; */
+    }
+    .topheader{
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 14px;
+        row-gap: 28px;
+        column-gap: 28px;
+        height: 40px;
+        background-color: rgb(54, 8, 50);
+    }
+    .topheader1 h1{
+        font-size: 10px;
+    }
+    .topheader2 h1{
+        font-size: 10px;
+    }
+    .header1{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .searchicon {
+        margin-top: -15px;
+        margin-left: 125px;
+        position: absolute;
+    }
+    .header2 {
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+    }
+    .ulheader {
+        display: flex;
+        justify-content: space-between;
+        /* padding-top: 19px; */
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        padding: 19px 10px;
+        gap: 10px;
+    }
+    .headersection {
+        background-color: #C3B1E1;
+        height: 63px;
+        margin-top: 30px;
+    }
+    .subdivone h1 {
+        text-align: center;
+    }
+    .subdivone p{
+        text-align: center;
+    }
+    .subdivaboutusone img{
+        margin-left: 30px ;
+    }
+    .subdivaboutustwo {
+        width: 100%;
+    }
+    .subdivaboutustwo h1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+    .icondiv {
+        display: flex;
+        margin-left: 20px;
+        gap: 306px;
+    }
+    .sweater{
+        width: 100%;
+    }
+    .mainproducttwo, .mainproductthree{
+        margin-top: 20px;
+    }
+    .banner {
+        /* display: flex; */
+        margin: 40px 0px;
+        /* gap: 30px;
+        justify-content: center; */
+    }
+    .banone, .bantwo{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .mobilebancar2{
+        padding: 78px;
+        text-align: center;
+    }
+    .mobilebancar2 h1{
+        margin-top: 11px;
+
+    }
+    .mobilebancar2 button{
+        margin-top: 11px;
+        padding: 10px 20px;
+        margin-left: 5px;
+        background-color: white;
+        border: none;
+        border-radius: 3px;
+
+    }
+    .mobilebanbag2 h1{
+        margin-top: 11px;
+
+    }
+    .mobilebanbag2 button{
+        margin-top: 11px;
+        padding: 10px 20px;
+        margin-left: 5px;
+        background-color: white;
+        border: none;
+        border-radius: 3px;
+
+    }
+    .mobilebanhat2 h1{
+        margin-top: 11px;
+
+    }
+    .mobilebanhat2 button{
+        margin-top: 11px;
+        padding: 10px 20px;
+        margin-left: 5px;
+        background-color: white;
+        border: none;
+        border-radius: 3px;
+
+    }
+    .shopnow {
+        background-color: white;
+        padding: 20px 30px;
+        border: none;
+        text-align: center;
+        margin-left: 86px;
+        margin-top: 20px;
+    }
+    .shopnowone {
+        background-color: white;
+        padding: 20px 30px;
+        border: none;
+        text-align: center;
+        margin-left: 86px;
+        margin-top: 20px;
+    }
+    /* .bannertwo{
+        margin-top: 20px;
+    } */
+    .showfilter p {
+        width: 250px;
+        margin-top: 9px;
+        margin-left: 0px;
+        font-family: 'Outfit', sans-serif;
+        font-size: small;
+    }
+    .showfilter img {
+        /* width: 40px; */
+        height: auto;
+    }
+    .showfilter {
+        display: flex;
+        gap: 6px;
+    }
+    .sortby p {
+        width: 100px;
+        font-family: 'Outfit', sans-serif;
+        font-size: small;
+        margin-top: 9px;
+    }
+    .sortbyrec {
+        width: 137px;
+        height: 15px;
+        /* margin-top: 9px; */
+        /* position: relative; */
+    }
+    .sortbyimg {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 182px 
+    }
+    .sortby p {
+        width: 66px;
+        font-family: 'Outfit', sans-serif;
+        font-size: small;
+        margin-top: 9px;
+    }
+    .showfilter p {
+        width: 101px;
+        margin-top: 9px;
+        margin-left: 0px;
+        font-family: 'Outfit', sans-serif;
+        font-size: small;
+    }
+    .subdivision-one {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        
+    }
+    .subdivision-two{
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        margin-top: 80px;
+        
+    }
+    .subdivision-three{
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+       margin-top: 80px;
+    }
+    .subdivision-four {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        margin-top: 80px;
+    }
+    .subdivision-five{
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        margin-top: 80px;
+        
+    }
+    .subdivision-six{
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+       margin-top: 80px;
+    }
+
+
+    .bagsubdivision-one {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        margin-top: 80px;
+    }
+    .bagsubdivision-two{
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        margin-top: 80px;
+        
+    }
+    .bagsubdivision-three{
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+       margin-top: 80px;
+    }
+    .bagsubdivision-four {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        margin-top: 80px;
+    }
+    .bagsubdivision-five{
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        margin-top: 80px;
+        
+    }
+    .bagsubdivision-six{
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+       margin-top: 80px;
+    }
+    /* .mainhatsection{
+        display: none;
+    } */
+
+    .hatsubdivision-one {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        margin-top: 80px;
+    }
+    .hatsubdivision-two{
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        margin-top: 80px;
+        
+    }
+    .hatsubdivision-three{
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+       margin-top: 80px;
+    }
+    .hatsubdivision-four {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        padding: 0px;
+        margin-top: 80px;
+    }
+    .productclickingiconflex{
+        padding: 10px;
+    }
+    /* .textone h3,h4{
+        
+    } */
+    .productimageresize{
+        padding: 0px 60px 28px 74px
+    }
+    .productimageh img{
+        margin-left: 64px;
+    }
+    .bancar2{
+        display: none;
+        background-color: orange;
+        /* background-image: url(images/bgcarone.png); */
+        
+
+    }
+    .maindresssection{
+        display: none;
+        background-color: orange;
+        margin-top: 100px;
+        width: 100%;
+        height: 200px;
+        background-image: url(./images/cardigan\ BANNER\ \(2\).png);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        
+        
+        
+    }
+    .mainformsection{
+        background-image: none;
+        background-color: #DAC5D6
+    }
+    .rememberme{
+        margin-left: 30px;
+    }
+    .maindresssection{
+        
+        margin-top: 100px;
+        width: 100%;
+        height: 200px;
+        background-image: url(./images/bagbanner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: none;
+        
+        
+        
+    }
+
+    .mainbagsection{
+        
+        margin-top: 100px;
+        width: 100%;
+        height: 200px;
+        background-image: url(./images/bagbanner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+        
+    }
+
+    
+
+
+    .orangebox{
+        display: none;
+    }
+    .formcontent h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    padding-top: 65px;
+    /* justify-content: center; */
+    display: flex;
+    margin-left: 147px;
+    }
+
+    .email input {
+        margin-top: 10px;
+        background-color: white;
+        border: none;
+        width: 320px;
+        height: 40px;
+    
+    }
+    .email {
+        font-family: 'Poppins', sans-serif;
+        /* padding-top: 50px; */
+        margin-left: 33px;
+        font-weight: bold;
+    }
+    .form3 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        padding-top: 50px;
+        margin-left: 33px;
+    }
+    .button2 {
+        /* margin-top: 600px; */
+        /* width: 400px; */
+        height: 50px;
+        margin-left: -7px;
+        border: none;
+        background-color: #A26D99;
+        color: white;
+    }
+    .button2 {
+        /* margin-top: 600px; */
+        width: 256px;
+        height: 50px;
+        margin-left: 68px;
+        border: none;
+        background-color: #A26D99;
+        color: white;
+    }
+    .banbag2{
+        margin-top: 210px;
+        /* margin-left: 858px; */
+    }
+    .footer1{
+        margin-left: 81px;
+    }
+    .footer2{
+        text-align: center;
+    }
+    .footer21{
+        text-align: center;
+    }
+    .footer3{
+        text-align: center;
+    }
+    .footer3 p{
+        text-align: center;
+        width: 324px;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .body{
+        overflow: hidden;
+    }
+}
